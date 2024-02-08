@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: rgb(221, 186, 143);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  margin: 0px;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+
+.tips-container {
+  margin-top: 180px;
+  margin-left: 100px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.p1-tip {
+  width: 274px;
+}
+.p2-tip {
+  width: 247px;
+}
+
+canvas {
+  margin-top: 130px;
+}
+
+.score-system-container {
+  position: absolute;
+  margin-right: 70px;
+  margin-top: 100px;
+  justify-self: flex-end;
+  top: 200px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.score-system-container p {
+  font-size: 36px;
+  margin: 0;
+}
+
+.addScore {
+  margin-bottom: 5px;
+}
+.teamScore {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+#highscore li {
+  position: relative;
+  left: -2rem;
+  list-style: none;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="index-stylesheet.css" />
+    <script src="p5.min.js"></script>
+    <title>The Will Of Fire</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="tips-container">
+        <img src="img/P1-guide.png" class="p1-tip" />
+        <img src="img/P2-guide.png" class="p2-tip" />
+        <img src="img/Attack-guide.png" class="atk-tip" />
+      </div>
+
+      <script src="game.js"></script>
+
+      <div class="score-system-container">
+        <div class="team-name">
+          <p class="team">Team Name:</p>
+          <div>
+            <input id="name" />
+            <button id="save">Add Score</button>
+          </div>
+        </div>
+        <ul id="highscore"></ul>
+      </div>
+    </main>
+  </body>
+</html>
