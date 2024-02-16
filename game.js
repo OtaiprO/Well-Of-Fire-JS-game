@@ -1332,7 +1332,7 @@ function mainMenu() {
   background(221, 186, 143);
   push();
   textSize(70);
-  text("Well Of Fire", 160, 150);
+  text("Will Of Fire", 160, 150);
   pop();
   push();
   fill(138, 98, 74);
